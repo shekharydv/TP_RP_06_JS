@@ -8,3 +8,6 @@ function name
 {
     parameters or else it can be empty
 }
+
+
+Task 25 april  =  Area of rectrangle dynamic
