@@ -1,4 +1,4 @@
 function text(name) {
-    console.log("Hello, " + name + "!");
+    console.log("Hello, " + name );
 }
 text("Shekhar");
