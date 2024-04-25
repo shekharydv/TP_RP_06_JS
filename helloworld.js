@@ -1,3 +1,6 @@
-for (let i = 0; i < 5; i++) {
-    console.log("hello world");
-}
+console.log("hello world");
+console.log("5+10");
+console.log("5+7");
+console.log("5+4");
+console.log("5+4");
+console.log("5+5")
