@@ -1,3 +1,5 @@
+
+
 # TP_RP_06_JS
 
 JS Function  
@@ -11,3 +13,5 @@ function name
 
 
 Task 25 april  =  Area of rectrangle dynamic
+celcius to fernite and fernite to celcuis function
+rasearch on builtin string 
