@@ -49,3 +49,15 @@ Node.appendChild()
 window.onload
 window.scrollTo()
 
+
+Array 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+Syntax [1,2]
+
+An array is a linear data structure that collects elements of the same data type and stores them in contiguous and adjacent memory locations.
+Eg : 
+const fruits = [];
+fruits.push("banana", "apple", "peach");
+console.log(fruits.length); // 3
+
+
