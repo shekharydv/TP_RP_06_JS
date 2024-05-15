@@ -60,4 +60,17 @@ const fruits = [];
 fruits.push("banana", "apple", "peach");
 console.log(fruits.length); // 3
 
+Object 
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
+An object is a collection of related data and/or functionality. These usually consist of several variables and functions (which are called properties and methods when they are inside objects). Let's work through an example to understand what they look like.
 
+const person = {
+  name: ["Bob", "Smith"],
+  age: 32,
+  bio: function () {
+    console.log(`${this.name[0]} ${this.name[1]} is ${this.age} years old.`);
+  },
+  introduceSelf: function () {
+    console.log(`Hi! I'm ${this.name[0]}.`);
+  },
+};
