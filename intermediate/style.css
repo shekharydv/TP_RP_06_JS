@@ -1,0 +1,23 @@
+/* tag selector */
+*{
+    text-align: center;
+    color: chartreuse;
+}
+
+h1, label, input {
+    
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: coral;
+}
+
+/* Id Selector */
+
+#title {
+    text-align: center;
+    color: coral;
+}
+
+.form-control {
+    padding: 14px;
+}
