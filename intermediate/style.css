@@ -1,23 +1,58 @@
-/* tag selector */
 *{
-    text-align: center;
-    color: chartreuse;
+    padding: 0%;
+    font-family: Arial, sans-serif;
 }
-
-h1, label, input {
+body {
     
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    color: coral;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-/* Id Selector */
-
-#title {
-    text-align: center;
-    color: coral;
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.form-control {
-    padding: 14px;
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
 }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
