@@ -3,9 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
+    <title>Responsive Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 2em;
+        }
+        .text {
+            flex: 1;
+            padding: 1em;
+        }
+        .image {
+            flex: 1;
+            padding: 1em;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .form-container {
+            padding: 2em;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label, input, textarea, button {
+            margin: 0.5em 0;
+        }
+    </style>
 </head>
 <body>
-    
+
+<div class="header">
+    <h1>Responsive Header</h1>
+</div>
+
+<div class="container">
+    <div class="text">
+        <p>This is some text beside the image. You can add more text here to provide information about the image or any other content you want to share.</p>
+    </div>
+    <div class="image">
+        <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+    </div>
+</div>
+
+<div class="form-container">
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
 </body>
 </html>
