@@ -103,26 +103,47 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 2em;
+    background-color: #747474;
 }
 
 .text {
     flex: 1;
     padding: 1em;
+    z-index: 0;
 }
 
 .image {
     flex: 1;
     padding: 1em;
+    
 }
 
 .image img {
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
+    z-index: 1;
+    
 }
 
+.image :hover{
+filter: grayscale(100%);
+
+
+
+}
+
+.image :hover{
+animation-delay: 390ms;
+}
 .form-container {
   padding-left: 30%;
+  background-color: #9484;
+  position:absolute;
+  width: 100%;
+  top: 500px;
 }
+
 
 
 
